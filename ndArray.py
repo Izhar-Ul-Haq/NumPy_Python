@@ -14,3 +14,5 @@ print(a.itemsize)
 print(a.size)
 # Show the type of the array 
 print(type(a))
+import tensorflow as tf
+print(tf.__version__)
