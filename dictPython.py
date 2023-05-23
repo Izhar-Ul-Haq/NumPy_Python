@@ -9,3 +9,6 @@ contacts["name"] = "Izhar Ul Haq"
 print(contacts["name"])
 contacts["address"] = "Merdan Khel Karak, KPK"
 print(contacts["address"])
+print(len(contacts))
+for key in contacts:
+    print(contacts[key])
